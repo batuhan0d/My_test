@@ -1,0 +1,94 @@
+/*for the index*/
+
+body{
+    background-color: black;
+    background-image: url("images/pink-2.jpg");
+    background-size: cover;
+    
+    
+}
+
+#all-page{
+    width: 900px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    min-height: 600px;
+    margin: auto;
+    /*background-color: aqua;*/
+    
+    background-color: white;
+    opacity: 0.5;
+
+}
+
+#main-area{
+    width: 898px;
+    border-style: solid;
+    border-width: 1px;
+    border-color:black;
+    height: 100px;
+
+}
+/*
+#the-name{
+    border-style: solid;
+    border-width: 4px;
+    border-color: black;
+    height: 50px;
+    width: 220px;
+    position: relative;
+    top: 25px;
+    left: 30px;
+}
+*/
+#ad{
+    border-style: solid;
+    border-width: 4px;
+    border-color: black;
+    height: 80px;
+    position: relative;
+    left: 220px;
+    top: 7px;
+}
+
+#menu{
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    height: 100px;
+}
+#menu ul{
+    list-style-type: none;
+}
+
+#menu ul li{
+    border-style: solid;
+    border-color: black;
+    
+    border-width: 4px;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    float: right;
+    margin-left: 20px;
+    padding: 3px;
+    position: relative;
+    right: 180px;
+    top: 10px;
+    
+    text-align: center;
+    
+}
+
+#menu ul a{
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+#menu ul a:hover{
+    color: brown;
+}
